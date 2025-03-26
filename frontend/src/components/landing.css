@@ -1,0 +1,138 @@
+/* Base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #071E22;
+}
+
+/* Section Styling */
+.section {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  transition: background-color 0.5s ease;
+}
+
+/* Updated slide background colors */
+.slide:nth-child(1) {
+  background: linear-gradient(135deg, #071E22 0%, #053740 100%);
+}
+
+.slide:nth-child(2) {
+  background: linear-gradient(135deg, #00ACC1 0%, #00838F 100%);
+}
+
+.slide:nth-child(3) {
+  background: linear-gradient(135deg, #FFC107 0%, #FFB300 100%);
+}
+
+.slide:nth-child(4) {
+  background: linear-gradient(135deg, #071E22 0%, #00ACC1 100%);
+}
+
+/* Content container */
+.content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 8%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Text Section */
+.text-section {
+  width: 50%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-section h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.slide:nth-child(3) h1 {
+  color: #071E22;
+}
+
+.text-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.slide:nth-child(3) p {
+  color: rgba(7, 30, 34, 0.85);
+}
+
+/* CTA Buttons */
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.primary-btn {
+  background-color: #00ACC1;
+  color: #FFFFFF;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+  transform: translateY(-3px);
+  background-color: #0097A7;
+}
+
+/* Image Section */
+.image-section {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-wrapper {
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Slide Number */
+.slide-number {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
