@@ -14,7 +14,7 @@ export default function ShareScreen() {
 
       <div className="hidden md:block md:w-1/2 h-full">
         <div className="h-full relative overflow-hidden">
-          <Image src="/share1.jpg" alt="People sharing stories" fill className="object-cover" />
+          <Image src="/share1.jpg" alt="People sharing moments" fill className="object-cover" />
         </div>
       </div>
     </div>

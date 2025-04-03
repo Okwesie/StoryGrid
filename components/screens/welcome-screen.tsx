@@ -14,13 +14,7 @@ export default function WelcomeScreen() {
 
       <div className="hidden md:block md:w-1/2 h-full">
         <div className="h-full relative overflow-hidden">
-          <Image
-            src="/welcome1.jpg"
-            alt="Friends enjoying social moments"
-            fill
-            className="object-cover"
-            priority
-          />
+          <Image src="/welcome1.jpg" alt="People sharing stories" fill className="object-cover" priority />
         </div>
       </div>
     </div>

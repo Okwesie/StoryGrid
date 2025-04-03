@@ -14,7 +14,7 @@ export default function ExploreScreen() {
 
       <div className="hidden md:block md:w-1/2 h-full">
         <div className="h-full relative overflow-hidden">
-          <Image src="/explore1.jpg" alt="People exploring content" fill className="object-cover" />
+          <Image src="/explore1.jpg" alt="Exploring content" fill className="object-cover" />
         </div>
       </div>
     </div>

@@ -12,7 +12,10 @@ export default function ConnectScreen() {
           </p>
 
           <div className="pt-6 flex justify-center md:justify-start w-full">
-            <Link href="#" className="inline-block bg-[#f4ce14] text-[#0a192f] font-bold py-3 px-8 rounded-md text-lg">
+            <Link
+              href="/register"
+              className="inline-block bg-[#f4ce14] text-[#0a192f] font-bold py-3 px-8 rounded-md text-lg"
+            >
               Get Started
             </Link>
           </div>
